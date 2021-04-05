@@ -11,7 +11,7 @@ function App() {
       <Container>
         <Navbar type="dark" expand="md">
           <NavbarBrand href="#">
-            <img src={logo} className="logo mr-2" />
+            <img src={logo} className="logo mr-2" alt=""/>
             Polaris
           </NavbarBrand>
           <Nav navbar>
