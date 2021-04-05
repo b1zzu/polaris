@@ -1,0 +1,23 @@
+.landing {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    background: url("./landing.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.landing::before {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #007bff;
+}
+
+.logo {
+    height: 28px;
+}
