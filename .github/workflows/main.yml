@@ -22,7 +22,7 @@ jobs:
 
       - run: |
           docker run \
-            -v $(PWD)/build:/build \
+            -v $(pwd)/build:/build \
             -e AWS_ACCESS_KEY_ID \
             -e AWS_SECRET_ACCESS_KEY \
             amazon/aws-cli --endpoint-url "${AWS_S3_ENDPOINT}" s3 sync /build s3://${AWS_S3_BUCKET}/
