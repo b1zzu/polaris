@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     min-height: 700px;
-    background: url("./landing.jpg") no-repeat center center fixed;
+    background: url("../landing.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -18,6 +18,3 @@
     background: #1E88E5;
 }
 
-.logo {
-    height: 28px;
-}
